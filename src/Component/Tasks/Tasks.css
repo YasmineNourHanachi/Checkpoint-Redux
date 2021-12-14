@@ -1,0 +1,33 @@
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+.btn {
+  margin-left: 40px;
+}
+input[type="checkbox"]:checked + label.strikethrough {
+  text-decoration: line-through;
+}
+.strikethrough {
+  font-size: xx-large;
+}
+.check {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+.line {
+  padding-top: 10px;
+  background-color: rgb(170, 177, 241);
+  width: 98%;
+}
